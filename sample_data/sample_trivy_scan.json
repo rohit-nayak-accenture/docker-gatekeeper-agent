@@ -1,0 +1,67 @@
+{
+  "ArtifactName": "myapp:latest",
+  "ScannedAt": "2026-08-10T09:15:00",
+  "Results": [
+    {
+      "Target": "myapp:latest (debian 12.5)",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2024-6119",
+          "PkgName": "openssl",
+          "InstalledVersion": "3.0.11-1",
+          "FixedVersion": "3.0.14-1",
+          "Severity": "CRITICAL",
+          "Title": "OpenSSL: possible denial of service in X.509 name checks"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-38408",
+          "PkgName": "openssh-client",
+          "InstalledVersion": "1:9.2p1-2",
+          "FixedVersion": null,
+          "Severity": "CRITICAL",
+          "Title": "OpenSSH: remote code execution via forwarded ssh-agent socket"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-38545",
+          "PkgName": "libcurl4",
+          "InstalledVersion": "7.88.1-10",
+          "FixedVersion": "7.88.1-10+deb12u5",
+          "Severity": "HIGH",
+          "Title": "curl: SOCKS5 heap buffer overflow"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-3602",
+          "PkgName": "libssl3",
+          "InstalledVersion": "3.0.2-0",
+          "FixedVersion": null,
+          "Severity": "HIGH",
+          "Title": "OpenSSL: X.509 email address 4-byte buffer overflow"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-4911",
+          "PkgName": "libc6",
+          "InstalledVersion": "2.36-9",
+          "FixedVersion": "2.36-9+deb12u4",
+          "Severity": "MEDIUM",
+          "Title": "glibc: buffer overflow in GNU C Library's dynamic loader"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-31484",
+          "PkgName": "perl-base",
+          "InstalledVersion": "5.36.0-7",
+          "FixedVersion": "5.36.0-7+deb12u1",
+          "Severity": "MEDIUM",
+          "Title": "perl: CPAN.pm does not verify TLS certificates"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-27943",
+          "PkgName": "libstdc++6",
+          "InstalledVersion": "12.2.0-14",
+          "FixedVersion": "12.2.0-14+deb12u1",
+          "Severity": "LOW",
+          "Title": "binutils: buffer overflow in demangle_template in rust-demangle.c"
+        }
+      ]
+    }
+  ]
+}

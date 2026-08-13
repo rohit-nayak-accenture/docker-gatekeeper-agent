@@ -16,3 +16,11 @@ A deterministic policy engine evaluates each vulnerability against a fixed rule 
 pip install -r requirements.txt
 cp .env.example .env   # then fill in ANTHROPIC_API_KEY
 ```
+## Usage
+
+```
+python main.py scan --sample sample_data/sample_trivy_scan.json
+python main.py add-waiver myapp CVE-2023-38408 --reason "vendor patch pending" --approved-by alice --days 14
+python main.py list-waivers myapp
+python main.py history myapp
+```
